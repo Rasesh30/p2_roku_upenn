@@ -1,8 +1,8 @@
 # Personal Loan Eligibility Prediction
 ## Project Overview
-### This project focuses on predicting personal loan eligibility using machine learning techniques. The goal was to develop an algorithm that evaluates whether individuals would be approved or rejected for personal loans based on key financial and demographic factors such as credit score, education level, annual income, asset values, and number of dependents. This model is designed to assist financial institutions in making more accurate loan approval decisions, reducing risk and improving customer experience.
+#### This project focuses on predicting personal loan eligibility using machine learning techniques. The goal was to develop an algorithm that evaluates whether individuals would be approved or rejected for personal loans based on key financial and demographic factors such as credit score, education level, annual income, asset values, and number of dependents. This model is designed to assist financial institutions in making more accurate loan approval decisions, reducing risk and improving customer experience.
 ## Problem Statement
-### Financial institutions face significant challenges in evaluating loan eligibility. The goal of this project is to use machine learning to predict whether a loan applicant will be approved or rejected based on their financial profile. We aim to create a model that provides reliable predictions to assist with credit risk assessment.
+#### Financial institutions face significant challenges in evaluating loan eligibility. The goal of this project is to use machine learning to predict whether a loan applicant will be approved or rejected based on their financial profile. We aim to create a model that provides reliable predictions to assist with credit risk assessment.
 ## Key Attributes
 - Credit Score
 - Education Level
@@ -11,7 +11,7 @@
 - Number of Dependents
 - Loan Approval Status (approved or rejected)
 ## Project Goals
-### To ensure our group remained on track, internal milestones and due dates were established. These milestones provide a clear timeline for completing different stages of the project:
+#### To ensure our group remained on track, internal milestones and due dates were established. These milestones provide a clear timeline for completing different stages of the project:
 - Project Ideation: Develop project concepts and objectives.
 - Data Fetching: Locate and acquire a suitable dataset.
 - Data Exploration: Perform exploratory data analysis (EDA) to understand the dataset.
@@ -20,10 +20,10 @@
 - Testing: Train machine learning models, evaluate their performance, and optimize their parameters.
 - Creating Documentation: Draft project documentation and create visual assets for presentation.
 - Creating the Presentation: Compile findings, models, and results into a presentation format to communicate insights effectively.
-### By adhering to these milestones, we ensured timely project completion and maintained accountability within the group.
+#### By adhering to these milestones, we ensured timely project completion and maintained accountability within the group.
 ## Dataset
-### We utilized the Loan Approval Prediction Dataset from Kaggle, which includes over 1,000 records of personal loan applicants, providing data such as credit scores, education level, annual income, and loan approval status.
-## Tools and Technologies
+#### We utilized the Loan Approval Prediction Dataset from Kaggle, which includes over 1,000 records of personal loan applicants, providing data such as credit scores, education level, annual income, and loan approval status.
+###### Tools and Technologies
 - Pandas: For data manipulation and preprocessing.
 - Scikit-learn: For model development, training, and evaluation.
 - Matplotlib & Seaborn: For data visualization and exploration.
@@ -74,31 +74,18 @@
 
 7. Results
 
-  Model Performance Summary:
-
-Logistic Regression:
-
-Training Accuracy: 92.19%
-
-Testing Accuracy: 90.54%
-
-Random Forest Classifier:
-
-Training Accuracy: 100%
-
-Testing Accuracy: 98.13%
-
-Support Vector Machine (SVM):
-
-Training Accuracy: 93.85%
-
-Testing Accuracy: 91.39%
-
-Decision Tree:
-
-Training Accuracy: 100%
-
-Testing Accuracy: 98.22%
+     
+          training Linear Regression: 0.921899406435489
+          testing  Linear Regression: 0.9054307116104869
+          ================================================
+          training RandomForest: 1.0
+          testing RandomForest: 0.9812734082397003
+          ================================================
+          training SVM: 0.9384567322711652
+          testing SVM: 0.9138576779026217
+          ================================================
+          training DecisionTree: 1.0
+          testing DecisionTree: 0.9822097378277154
 
 Among the models evaluated, the Random Forest Classifier and Decision Tree achieved the highest testing accuracy, surpassing 98%. Specifically, the Decision Tree attained a testing accuracy of 98.22%, while the Random Forest reached 98.13%. Both models demonstrated
 robust performance in predicting loan eligibility, fitting the training data almost perfectly. The slight difference in accuracy can be attributed to Random Forest's ensemble learning approach, which aggregates multiple decision trees to enhance accuracy and reduce
